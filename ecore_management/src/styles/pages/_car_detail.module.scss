@@ -1,0 +1,35 @@
+.body{
+  .title{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .car{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .image{
+      width: calc(100% / 2 - 20px);
+    }
+    .info_car{
+      width: calc(100% / 2 - 20px);
+      display: flex;
+      gap: 25px;
+      .form{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .label{
+
+        }
+        .content{
+
+        }
+      }
+    }
+  }
+  .button{
+    display: flex;
+    justify-content: end;
+  }
+}

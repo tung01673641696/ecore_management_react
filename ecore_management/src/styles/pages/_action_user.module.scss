@@ -1,0 +1,25 @@
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .box{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    .form{
+      width: calc(100% / 2 - 10px);
+    }
+    .gender{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin-bottom: 10px;
+      .label{
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        margin-bottom: 7px;
+      }
+    }
+  }
+}

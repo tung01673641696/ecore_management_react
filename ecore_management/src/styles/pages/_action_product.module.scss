@@ -1,0 +1,32 @@
+.box_form{
+  display: block;
+  .buttonCreate{
+    background-color: #006889;
+    padding: 8px 16px;
+    color: #fff;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    float: right;
+  }
+  .d_flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .calc{
+      width: calc(100% / 2 - 20px);
+      .label{
+        float: left;
+        margin: 0;
+        font-weight: 600;
+        font-family: Montserrat, sans-serif;
+      }
+      .box_select {
+        width: 100%;
+        border: 1px solid;
+        border-radius: 6px;
+        margin-top: 9px;
+        height: 40px;
+      }
+    }
+  }
+}

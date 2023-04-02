@@ -1,0 +1,13 @@
+.status_service {
+  width: 100%;
+  .status_service_box {
+    width: 100%;
+    display: flex;
+    border: 1px solid #e1dfdf;
+    justify-content: space-between;
+    
+    .status_service_card {
+      width: 100%;
+    }
+  }
+}

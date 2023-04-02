@@ -1,0 +1,49 @@
+{
+"//comment 1": "navbar",
+
+  "country": "Quốc gia",
+  "notification": "Thông báo",
+  "chat": "Tin nhắn",
+
+"//comment 2": "sidebar",
+
+  "category": "Danh mục",
+  "product": "Sản phẩm",
+  "contract": "Hợp đồng",
+  "service": "Dịch vụ",
+  "tire": "Lốp xe",
+  "news": "Tin tức",
+  "status_service": "Trạng thái dịch vụ",
+  "group": "Hội nhóm",
+
+"//comment 3": "table",
+
+  "image": "Ảnh",
+  "fullName": "Họ và tên",
+  "phone": "Số điện thoại",
+  "gender": "Giới tính",
+  "role": "Quyền",
+
+  "cate_name": "Tên danh mục",
+  "des": "Mô tả",
+
+"//comment 4": "button",
+
+  "confirm": "Xác nhận",
+  "back": "Trở lại",
+  "add": "Thêm mới",
+
+"//comment 5": "message",
+  "login_success": "Đăng nhập thành công",
+  "login_error": "Đăng nhập thất bại",
+  "add_success": "Thêm thành công",
+  "add_error": "Thêm thất bại",
+  "update_success": "Cập nhật thành công",
+  "update_error": "Cập nhật thất bại",
+  "delete_success": "Xóa thành công",
+  "delete_error": "Xóa thất bại",
+
+"//comment 6": "title action",
+  "add_box": "Thêm box",
+  "update_box": "Cập nhật box"
+}

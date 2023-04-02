@@ -1,0 +1,33 @@
+image: node:latest
+variables:
+  GIT_CLEAN_FLAGS: none
+stages:
+  - build
+#   - deploy
+build-fe:
+  stage: build
+  only:
+    - dev/release
+  script:
+    - unset CI
+    - whoami
+    - echo "start"
+    # - cd api
+    # - cp -rf .env_dev .env
+   # - cp -a ./ /storage/data/frontend/agriculture-fe/agricultural-products-e-commerce-frontend/
+    # - rsync -av --exclude=./.git ./ /storage/data/frontend/agriculture-fe/agricultural-products-e-commerce-frontend/
+    # - cd /storage/data/frontend/agriculture-fe/agricultural-products-e-commerce-frontend/
+    - yarn
+    - yarn build
+    - pwd
+    - echo "Copy data"
+    - cp -a ./build/* /var/www/tire-mngt-fe/
+# deploy_be:
+#   stage: deploy
+#   only:
+#     - dev/release
+#   script:
+#     - whoami
+#     - pm2 list
+#     - pm2 restart agriculture-fe
+#     - echo "restart services"

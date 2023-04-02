@@ -1,0 +1,49 @@
+{
+"//comment 1": "navbar",
+
+  "country": "Country",
+  "notification": "Notification",
+  "chat": "Chat",
+
+"//comment 2": "sidebar",
+
+  "category": "Category",
+  "product": "Product",
+  "contract": "Contract",
+  "service": "Service",
+  "tire": "Tire",
+  "news": "News",
+  "status_service": "Status Service",
+  "group": "Groups",
+
+"//comment 3": "table",
+
+  "image": "Image",
+  "fullName": "Full Name",
+  "phone": "Phone",
+  "gender": "Gender",
+  "role": "Role",
+
+  "cate_name": "Category Name",
+  "des": "Description",
+
+"//comment 4": "button",
+
+  "confirm": "Confirm",
+  "back": "Back",
+  "add": "Add New",
+
+"//comment 5": "message",
+  "login_success": "Login success",
+  "login_error": "Login error",
+  "add_success": "Add new successs",
+  "add_error": "Add new error",
+  "update_success": "Update success",
+  "update_error": "Update error",
+  "delete_success": "Delete success",
+  "delete_error": "Delete error",
+
+"//comment 6": "title action",
+  "add_box": "Add new box",
+  "update_box": "Update box"
+}
